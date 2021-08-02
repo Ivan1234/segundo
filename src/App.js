@@ -12,7 +12,7 @@ function App() {
   };
 
   const saludarFn = name =>{
-    console.log("Hola " + name);
+    alert("Hola " + name);
   };
 
   return (
