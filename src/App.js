@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Saludar from './components/Saludar';
+import HookEstado from './components/HookEstado';
 
 function App() {
   const user = {
@@ -22,6 +23,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <Saludar userInfo={user} saludarFn={saludarFn}/>
+          <HookEstado />
         </p>
       </header>
     </div>
