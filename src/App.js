@@ -11,12 +11,16 @@ function App() {
 
   };
 
+  const saludarFn = name =>{
+    console.log("Hola " + name);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <Saludar userInfo={user}/>
+          <Saludar userInfo={user} saludarFn={saludarFn}/>
         </p>
       </header>
     </div>
