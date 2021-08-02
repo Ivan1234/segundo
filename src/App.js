@@ -11,8 +11,9 @@ function App() {
 
   };
 
-  const saludarFn = name =>{
-    alert("Hola " + name);
+  const saludarFn = (name, edad, color) =>{
+    alert("Soy " + name + ", tengo " + edad + " y mi color favorito es el: " + color +".");
+    alert(`Soy ${name}, tengo ${edad} y mi color favorito es el: ${color}.`);
   };
 
   return (
